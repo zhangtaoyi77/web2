@@ -1,0 +1,28 @@
+table.no5{
+	background-image: url(https://github.com/zhangtaoyi77/course-web1/blob/master/Ch06%20HTML4.01&HTML5/lab6/lab6/images/foot_bg.gif?raw=true);
+}
+table.no1{
+	background-color: black;
+}
+p.no2{
+	font-family: '宋体';
+	color: white;
+}
+p.no3{
+	font-family: '宋体';
+	color:white;
+}
+p.no4{
+	font-family: '宋体';
+	color: white;
+
+}
+ul.no6{
+	list-style-type: square;
+}
+ul.no7{
+	list-style-type: disc;
+}
+ul.no8{
+	list-style-image: url(../image3/bq.png);
+}
