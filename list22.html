@@ -1,0 +1,473 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<html>
+<head>
+	<title>list</title>
+	<style type="text/css">
+		.top{
+			background-image: url(images/bg.gif);
+			width: 100%;
+			height: 100px;
+			background-repeat: repeat-x;
+		}
+		.top1{
+			width: 10%;
+			height: 100px;
+			float: left;
+		}
+		.top2{
+			width: 30%;
+			height: 100px;
+			float: left;
+		}
+		.top3{
+			width: 20%;
+			height: 100px;
+			float: left;
+		}
+		.top4{
+			width: 20%;
+			height: 100px;
+			float: left;
+		}
+		.second{
+			background-image: url(images/nav.jpg);
+			width: 100%;
+			height: 42px;
+			background-repeat: repeat-x;
+		}
+		.one{
+			width:0.2%;
+			height: 28px;
+			float: left;
+			padding: 6px 0.05%;
+		}
+		.two{
+			width: 7%;
+			height: 30px;
+			float: left;
+			padding: 6px 0.1%;
+		}
+		a{
+			text-decoration: none;
+		}
+		.three{
+			width: 8%;
+			height: 30px;
+			float: left;
+			padding: 6px 0.1%;
+		}
+		.five{
+			width: 8%;
+			height: 30px;
+			float: left;
+			padding: 6px 0.1%;
+		}
+		.six{
+			width: 8%;
+			height: 30px;
+			float: left;
+			padding: 6px 0.1%;
+		}
+		.seven{
+			width: 8%;
+			height: 30px;
+			float: left;
+			padding: 6px 0.1%;
+		}
+		.eight{
+			width: 8%;
+			height: 30px;
+			float: left;
+			padding: 6px 0.1%;
+		}
+		.nine{
+			width: 8%;
+			height: 30px;
+			float: left;
+			padding: 6px 0.1%;
+		}
+		.ten{
+			width: 14%;
+			height: 30px;
+			float: left;
+			padding: 6px 0.1%;
+		}
+		.eleven{
+			width: 8%;
+			height: 30px;
+			float: left;
+			padding: 6px 0.1%;
+		}
+		.twelve{
+			width: 16.8%;
+			height: 30px;
+			float: left;
+			padding: 6px 0.1%;
+		}
+		.button{
+			background-color: #000;
+			color: #fff;
+		}
+		a:link{
+			color: #f9f603;
+		}
+		.third{
+			width: 1122px;
+			height: 25px;
+			background-color: white;
+			float: left;
+		}
+		.thirdy{
+			width: 200px;
+			height: 25px;
+			float: left;
+		}
+		.thirde{
+			width: 200px;
+			height: 25px;
+			font-size: 12px;
+			color: #522a06;
+			float: left;
+		}
+		.thirds{
+			width: 722px;
+			height: 25px;
+			float: left;
+		}
+		.fourth{
+			width: 1122px;
+			height: 700px;
+			float: left;
+		}
+		.fy{
+			width: 200px;
+			height: 700px;
+			float: left;
+		}
+		.fe{
+			width: 200px;
+			height: 700px;
+			float: left;
+		}
+		.fey{
+			width: 200px;
+			height: 200px;
+			float: left;
+			background-image: url(images/bodybg.gif);
+			background-repeat: no-repeat;
+		}
+		.feyy{
+			width: 200px;
+			height: 50px;
+			float: left;
+			background-image: url(images/pxdt.png);
+			background-repeat:no-repeat;
+			}
+		.feye{
+			width: 200px;
+			height: 150px;
+			float: left;
+		}
+		ul li a{
+			color: gray;
+			font-size: 20px;
+			list-style-type: none;
+			line-height: 30px;
+			font-weight: bold;
+		}
+		ul li a:hover{
+			color: red;
+		}
+		.menu{
+			width: 200px;
+			height: 30px;
+			background-image: url(images/menubg.gif);
+			background-repeat: no-repeat;
+		}
+		.fee{
+			width: 200px;
+			height: 30px;
+			float: left;
+		}
+		.fes{
+			width: 200px;
+			height: 200px;
+			float: left;
+			background-image: url(images/bodybg.gif);
+		}
+		.fesy{
+			width: 200px;
+			height: 50px;
+			float: left;
+			background-image: url(images/news.png);
+			background-repeat: no-repeat;
+		}
+		.fese{
+			width: 200px;
+			height: 150px;
+			float: left;
+		}
+		.zi{
+			font-size: 20px;
+			color: #522a06;
+			line-height: 30px;
+		}
+		.fesi{
+			width: 200px;
+			height: 30px;
+			float: left;
+		}
+		.few{
+			width: 200px;
+			height: 140px;
+			float: left;
+			background-image: url(images/tel.gif);
+			background-repeat: no-repeat;
+		}
+		.fs{
+			width: 712px;
+			height: 700px;
+			float: left;
+		}
+		.fsy{
+			width: 712px;
+			height: 50px;
+			float: left;
+			background-image: url(images/listtitle.png);
+			background-repeat: no-repeat;
+		}
+		p{
+			color: red;
+			position: relative;right: 240px;top: 15px;
+			font-size: 20px;
+		}
+		.fse{
+			width: 712px;
+			height: 500px;
+			float: left;
+		}
+		.ziy{
+			color: #522a06;
+			font-size: 30px;
+			line-height: 32px;
+		}
+		.fss{
+			width: 712px;
+			height: 150px;
+			float: left;
+		}
+		.fssy{
+			width: 25px;
+			height: 20px;
+			float: left;
+			position: relative;left: 180px;
+		}
+		.fsse{
+			width: 25px;
+			height: 20px;
+			float: left;
+			position: relative;left: 185px;
+		}
+		.fsss{
+			width: 25px;
+			height: 20px;
+			float: left;
+			border: 1px #522a06 solid;
+			position: relative;left: 190px;
+		}
+		.fssw{
+			width: 25px;
+			height: 20px;
+			float: left;
+			position: relative;left: 195px;
+		}
+		.fsi{
+			width: 10px;
+			height: 700px;
+			float: left;
+			position: relative;left: 200px;
+		}
+		.di{
+			width: 1122px;
+			height: 200px;
+			float: left;
+		}
+		a{
+			color: #522a06;
+			font-size: 12px;
+			text-align: center;
+		}
+		.ziyyy{
+			color: #522a06;
+			font-size: 12px;
+			text-align: center;
+		}
+	</style>
+	<link rel="stylesheet" type="text/css" href="css/content.css"/>
+</head>
+<body>
+	<div class="top">
+		<div class="top1"></div>
+		<div class="top2">
+			<img src="images/logo.png">
+		</div>
+		<div class="top3"></div>
+		<div class="top4"></div>
+	</div>
+	<div class="second">
+		<div class="one"></div>
+		<div class="two">
+			<a href="#"><font color="white">首页&nbsp|</font></a>
+		</div>
+		<div class="three">
+			<a href="#"><font color="white">中心概况&nbsp|</font></a>
+		</div>
+		<div class="five">
+		<a href="#"><font color="white">培训动态&nbsp|</font></a>
+		</div>
+		<div class="six">		
+		<a href="#"><font color="white">学术争鸣&nbsp|</font></a>
+		</div>
+		<div class="seven">
+		<a href="#"><font color="white">书坛新闻&nbsp|</font></a>
+		</div>
+		<div class="eight">
+		<a href="#"><font color="white">名家餐厅&nbsp|</font></a>
+		</div>
+		<div class="nine">
+		<a href="#"><font color="white">燕赵风采&nbsp|</font></a>
+		</div>
+		<div class="ten">
+		<a href="#"><font color="white">经典解读与示范</font></a>
+		</div>
+		<div class="eleven">
+		<a href="#"><font color="white">谏言互动&nbsp</font></a>
+		</div>
+		<div class="twelve">
+			<form>
+				<input type="text" name="sousuo">
+				<input type="button" value="搜索" class="button">
+			</form>
+		</div>
+	</div>
+	<div class="third">
+		<div class="thirdy"></div>
+		<div class="thirde">
+		当前位置：首页&nbsp>&nbsp培训动态
+		</div>
+		<div class="thirds"></div>
+	</div>
+	<div class="fourth">
+		<div class="fy"></div>
+		<div class="fe">
+			<div class="fey">
+				<div class="feyy"></div>
+				<div class="feye">
+					<ul>
+						<div class="menu">
+						<li><a href="#">招生启事</a></li>
+						</div>
+						<li><a href="#">公告发布</a></li>
+						<li><a href="#">师生作品</a></li>
+						<li><a href="#">艺考资讯</a></li>
+						<li><a href="#">授课现场</a></li>
+					</ul>
+				</div>
+			</div>
+			<div class="fee"></div>
+			<div class="fes">
+				<div class="fesy"></div>
+				<div class="fese">
+					<ul class="zi">
+						<li>普及书法教育</li>
+						<li>规范书法考级</li>
+						<li>探究书法之道</li>
+						<li>成就书法大家</li>
+					</ul>
+				</div>
+			</div>
+			<div class="fesi"></div>
+			<div class="few"></div>
+		</div>
+		<div class="fs">
+			<div class="fsy">
+				<p>招生启事</p>
+			</div>
+			<div class="fse">
+				<ul class="ziy">
+					<li>•2016年上半年书法等级考试报名通知&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp2016-03-15</li>
+					<li>•2016年上半年书法等级考试报名通知&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp2016-03-15</li>
+					<li>•2016年上半年书法等级考试报名通知&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp2016-03-15</li>
+					<li>•2016年上半年书法等级考试报名通知&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp2016-03-15</li>
+					<li>•2016年上半年书法等级考试报名通知&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp2016-03-15</li>
+					<li>•2016年上半年书法等级考试报名通知&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp2016-03-15</li>
+					<li>•2016年上半年书法等级考试报名通知&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp2016-03-15</li>
+					<li>•2016年上半年书法等级考试报名通知&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp2016-03-15</li>
+					<li>•2016年上半年书法等级考试报名通知&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp2016-03-15</li>
+					<li>•2016年上半年书法等级考试报名通知&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp2016-03-15</li>
+					<li>•2016年上半年书法等级考试报名通知&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp2016-03-15</li>
+					<li>•2016年上半年书法等级考试报名通知&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp2016-03-15</li>
+					<li>•2016年上半年书法等级考试报名通知&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp2016-03-15</li>
+					<li>•2016年上半年书法等级考试报名通知&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp2016-03-15</li>
+					<li>•2016年上半年书法等级考试报名通知&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp2016-03-15</li>
+				</ul>
+			</div>
+			<div class="fss">
+				<div class="fssy">
+					<a href="#"><</a>
+				</div>
+				<div class="fsse">
+					<a href="#">1</a>
+				</div>
+				<div class="fsss">
+					<a href="#">2</a>
+				</div>
+				<div class="fsss">
+					<a href="#">3</a>
+				</div>
+				<div class="fsss">
+					<a href="#">4</a>
+				</div>
+				<div class="fsss">
+					<a href="#">5</a>
+				</div>
+				<div class="fsss">
+					<a href="#">6</a>
+				</div>
+				<div class="fsss">
+					<a href="#">7</a>
+				</div>
+				<div class="fssw">
+					<a href="#">…</a>
+				</div>
+				<div class="fsss">
+					<a href="#">199</a>
+				</div>
+				<div class="fsss">
+					<a href="#">200</a>
+				</div>
+				<div class="fsss">
+					<a href="#">></a>
+				</div>
+			</div>
+		</div>
+		<div class="fsi"></div>
+	</div>
+	<div class="di">
+		<p>
+			&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+			<a href="#">电子信箱|</a>
+			<a href="#">设为首页|</a>
+			<a href="#">在线调查|</a>
+			<a href="#">加入收藏|</a>
+			<a href="#">网站地图|</a>
+			<a href="#">关于我们|</a>
+		</p>
+		<img src="images/line.jpg">
+		<p class="ziyyy">
+			&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspCopyright © 2008-2016 http://www.***.com All Rights Reserved 网站备案：冀ICP备00000000号
+		</p>
+	</div>
+</body>
+</html>
