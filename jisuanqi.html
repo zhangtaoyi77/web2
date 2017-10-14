@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<meta charset="utf-8"/>
+<html>
+<head>
+	<title>jisuanqi</title>
+	<script type="text/javascript">
+	var clearFlag=false;
+	function getNumber(num)
+	{
+		var objresult=document.getElementById("result");
+		if(clearFlag)
+		{
+   			objresult.value="";
+   			clearFlag=false;
+  		}
+  		objresult.value+=num;
+	}
+	function getResult()
+	{
+ 		var objresult=document.getElementById("result");
+ 		objresult.value=objresult.value+"="+eval(objresult.value);
+ 		clearFlag=true;
+	}
+	/*function clear()
+	{
+		document.getElementById(objresult.value="");
+		document.getElementById(objresult.value="");
+	}*/
+	</script>
+</head>
+<body>
+	<table border="1">
+		<tr>
+			<td colspan="3">
+				<input type="text" name="result" id="result">
+			</td>
+			<td>
+			<input type="button" value="C"/>
+			</td>
+		</tr>
+		<tr>
+			<td>
+			<input type="button"  value="1" onclick="getNumber(1)"/>
+			</td>
+			<td>
+				<input type="button"  value="2" onclick="getNumber(2)"/>
+			</td>
+			<td>
+			<input type="button"  value="3" onclick="getNumber(3)"/>
+			</td>
+			<td>
+				<input type="button"  value="+" onclick="getNumber('+')"/>
+			</td>
+		</tr>
+		<tr>
+			<td>
+			<input type="button"  value="4" onclick="getNumber(4)"/>
+			</td>
+			<td>
+				<input type="button"  value="5" onclick="getNumber(5)"/>
+			</td>
+			<td>
+			<input type="button" value="6" onclick="getNumber(6)"/>
+			</td>
+			<td>
+				<input type="button" value="-" onclick="getNumber('-')"/>
+			</td>
+		</tr>
+		<tr>
+			<td>
+			<input type="button" value="7" onclick="getNumber(7)"/>
+			</td>
+			<td>
+				<input type="button" value="8" onclick="getNumber(8)"/>
+			</td>
+			<td>
+			<input type="button" value="9" onclick="getNumber(9)"/>
+			</td>
+			<td>
+			<input type="button"  value="*" onclick="getNumber('*')"/>
+			</td>
+		</tr>
+			<tr>
+			<td>
+			<input type="button" value="0" onclick="getNumber(0)"/>
+			</td>
+			<td>
+				<input type="button" value="." onclick="getNumber('.')"/>
+			</td>
+			<td>
+			<input type="button" value="=" onclick="getResult()"/>
+			</td>
+			<td>
+				<input type="button" value="/" onclick="getNumber('/')"/>
+			</td>
+		</tr>
+	</table>
+</body>
+</html>
